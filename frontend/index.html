@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <h1 class="pageTitle">Todo List Manager</h1>
+        <div class="taskCreator">
+            <input type="text" placeholder="Task name" id="taskNameInput">
+            <input type="text" placeholder="Task priority" id="taskPriorityInput">
+            <input type="text" placeholder="Task date" id="taskDateInput">
+            <button id="addTaskButton" onclick="createNewTask()">Add New Task</button>
+        </div>
+        
+        <div class="taskHeader">
+            <p>Title</p>
+            <p>Priority</p>
+            <p>Date created</p>
+        </div>
+        <div id="taskDisplay">
+            <div class="taskItem">
+                <p>Title</p>
+                <p>Priority</p>
+                <p>Date</p>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
